@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test" parallel="classes">
+    <classes>
+      <class name="workingWithTestNg.Sample1"/>
+      <class name="workingWithTestNg.TC_Milkybar_10_"/>
+      <class name="workingWithTestNg.TC_Cadbury_6_"/>
+      <class name="workingWithTestNg.TC_NIke_12_"/>
+      <class name="workingWithTestNg.TC_Zara_14_"/>
+      <class name="workingWithTestNg.TC_Apple_1_"/>
+      <class name="workingWithTestNg.TC_RiverIsland_11_"/>
+      <class name="workingWithTestNg.TC_Snickers_8_"/>
+      <class name="workingWithTestNg.TC_Galaxy_9_"/>
+      <class name="workingWithTestNg.TC_Oppo_4_"/>
+      <class name="workingWithTestNg.TC_Lyca_3_"/>
+      <class name="workingWithTestNg.TC_Vivo_5_"/>
+      <class name="workingWithTestNg.TC_Bershka_15_"/>
+      <class name="workingWithTestNg.TC_Ferrerorocher_7_"/>
+      <class name="workingWithTestNg.TC_Lebara_2_"/>
+      <class name="workingWithTestNg.TC_Massimodutti_13_"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

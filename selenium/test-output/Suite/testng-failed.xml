@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="ExploringConfigaration.TC_DWS_002">
+        <methods>
+          <include name="browserLaunch"/>
+          <include name="browserTermDown"/>
+          <include name="login"/>
+          <include name="Computers"/>
+          <include name="logOut"/>
+        </methods>
+      </class> <!-- ExploringConfigaration.TC_DWS_002 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

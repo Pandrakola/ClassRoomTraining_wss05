@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testScript.TC_Lebara_2_"/>
+      <class name="testScript.TC_Oppo_4_"/>
+      <class name="testScript.TC_Cadbury_6_"/>
+      <class name="testScript.TC_RiverIsland_11_"/>
+      <class name="testScript.TC_Milkybar_10_"/>
+      <class name="testScript.TC_Snickers_8_"/>
+      <class name="testScript.TC_Ferrerorocher_7_"/>
+      <class name="testScript.TC_Apple_1_"/>
+      <class name="testScript.TC_Bershka_15_"/>
+      <class name="testScript.TC_Zara_14_"/>
+      <class name="testScript.TC_NIke_12_"/>
+      <class name="testScript.TC_Galaxy_9_"/>
+      <class name="testScript.TC_Lyca_3_"/>
+      <class name="testScript.TC_Vivo_5_"/>
+      <class name="testScript.TC_Massimodutti_13_"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
