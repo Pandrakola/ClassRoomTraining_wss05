@@ -1,17 +1,17 @@
 package readData;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
+
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
-import org.apache.poi.EncryptedDocumentException;
+
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.DataProvider;
+
 import org.testng.annotations.Test;
 
 public class Register {
@@ -60,11 +60,11 @@ public class Register {
 		}else {
 			driver.findElement(By.id("gender-female")).click();
 	}		
-		driver.findElement(By.id("FirstName")).sendKeys(gender);
+		driver.findElement(By.id("FirstName")).sendKeys(fistName);
 		Thread.sleep(2000);
-		driver.findElement(By.id("LastName")).sendKeys(fistName);
+		driver.findElement(By.id("LastName")).sendKeys(lastName);
 		Thread.sleep(2000);
-		driver.findElement(By.id("Email")).sendKeys(lastName);
+		driver.findElement(By.id("Email")).sendKeys(emailId);
 		Thread.sleep(2000);
 		driver.findElement(By.id("Password")).sendKeys(pass);
 		Thread.sleep(2000);
