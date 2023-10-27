@@ -9,48 +9,10 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">51</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">27,979</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">readData.Login</td><td><a href="#m0">LoginWithCred</a></td><td rowspan="1">1696250018855</td><td rowspan="1">0</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">readData.Register</td><td><a href="#m0">registerUser</a></td><td rowspan="1">1696802341839</td><td rowspan="1">27946</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">readData.Login#LoginWithCred</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: java.io.FileNotFoundException: .\resource\text.xlsx (The system cannot find the file specified)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
-	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:144)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:830)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:775)
-	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:60)
-	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:39)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1049)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
-	at org.testng.TestRunner.privateRun(TestRunner.java:724)
-	at org.testng.TestRunner.run(TestRunner.java:574)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:302)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1142)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1064)
-	at org.testng.TestNG.runSuites(TestNG.java:994)
-	at org.testng.TestNG.run(TestNG.java:962)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.io.FileNotFoundException: .\resource\text.xlsx (The system cannot find the file specified)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
-	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:158)
-	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:112)
-	at genericLibrary.ExcelLibrary.readAllData(ExcelLibrary.java:40)
-	at readData.LoginActitime.data(LoginActitime.java:37)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:76)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
-	... 23 more
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Default test</h2><h3 id="m0">readData.Register#registerUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
